@@ -1,0 +1,19 @@
+"use strict";
+console.log("///Task-3///");
+const products = [{
+        id: 3,
+        price: 200,
+    },
+    {
+        id: 4,
+        price: 900,
+    },
+    {
+        id: 1,
+        price: 1000,
+    },
+];
+products.forEach(function (item) {
+    item.price = item.price - item.price * 0.15;
+});
+console.log(products);
